@@ -80,6 +80,7 @@ pip install -r requirements.txt
 📂 Data Preparation
 Please organize your dataset (e.g., CTDD) as follows:
 
+```
 data/
 ├── CTDD/
 │   ├── train/
@@ -89,6 +90,7 @@ data/
 │       ├── images/
 │       └── labels/
 └── ...
+```
 
 Training
 To train the CF-YOLO model, simply run the following command:

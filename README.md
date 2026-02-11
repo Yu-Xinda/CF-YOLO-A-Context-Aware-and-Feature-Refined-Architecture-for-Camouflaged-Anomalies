@@ -76,7 +76,7 @@ conda activate cfyolo
 pip install -r requirements.txt
 ```
 
-📂 Data Preparation
+## 📂 Data Preparation
 Please organize your dataset (e.g., CTDD) as follows:
 
 ```
@@ -91,6 +91,7 @@ data/
 └── ...
 ```
 
+## Run
 Training
 To train the CF-YOLO model, simply run the following command:
 
@@ -105,5 +106,5 @@ To evaluate the trained model on the test set, run:
 ```bash
 python test.py
 ```
-🙏 Acknowledgement
+## 🙏 Acknowledgement
 We sincerely appreciate the authors of [Ultralytics](https://github.com/ultralytics/ultralytics) YOLO for their excellent open-source work, which serves as the strong baseline for our project.

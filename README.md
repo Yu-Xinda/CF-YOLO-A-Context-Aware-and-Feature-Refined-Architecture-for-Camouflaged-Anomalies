@@ -9,10 +9,17 @@
 
 This is the official implementation of the paper: **"CF-YOLO: A Context-Aware and Feature-Refined Architecture for Camouflaged Anomalies"**.
 
-**CF-YOLO** is a novel architecture designed to tackle the challenges of detecting **camouflaged anomalies** in complex environments. By integrating a **Context-Aware Module (CAM)** and a **Feature Refinement Module (FRM)** into the YOLO baseline, our method significantly enhances the feature representation capability for subtle and concealed objects, achieving state-of-the-art performance on multiple benchmarks.
+**CF-YOLO** is a novel real-time detection framework specifically designed for **industrial surface defect detection** (e.g., copper tubes), where anomalies are often minute and visually camouflaged against complex backgrounds. 
+
+To tackle the challenges of weak feature representations and high false positive rates, our method integrates two key innovations into the YOLO baseline:
+
+1.  **Context-Perception Aggregation Module (CPAM):** Synergises large-kernel perception for macro-texture context with small-kernel aggregation for sharp boundary delineation, effectively breaking background camouflage.
+2.  **Feature Additive Refinement Module (FARM):** Employs a linear-complexity additive token mixer to globally verify and refine fine-grained anomaly representations, suppressing noise-induced errors.
+
+Additionally, we introduce the **Copper Tube Defect Dataset (CTDD)**, a large-scale annotated benchmark to support research in this domain. Extensive experiments on CTDD demonstrate that CF-YOLO surpasses strong baselines like **YOLOv11**, achieving improvements of **2.2% in mAP@50** and **3.9% in Precision**, while maintaining real-time inference speed.
 
 <div align="center">
-  <img src="assets/architecture.png" width="800"/>
+  <img src="docs/model.png" width="800"/>
   <br>
   <em>Figure 1: The overall architecture of CF-YOLO.</em>
 </div>

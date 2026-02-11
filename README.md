@@ -25,21 +25,22 @@ Additionally, we introduce the **Copper Tube Defect Dataset (CTDD)**, a large-sc
 </div>
 
 ## 🔥 News
-- **[2024-05-20]** The training and inference codes are released!
-- **[2024-05-01]** Our paper is under review.
+- **[2026-02-07]** The training and inference codes are released!
 
 ## ✨ Features
-- **Context-Awareness:** Effectively captures global context to distinguish anomalies from the background.
-- **Feature Refinement:** enhancing the representation of weak features for camouflaged objects.
-- **High Efficiency:** Maintains the real-time inference speed characteristic of the YOLO family.
-- **Easy to Use:** Modular design for easy integration and deployment.
+
+- **Context-Perception Aggregation (CPAM):** Synergises large-kernel perception for macro-texture context and small-kernel aggregation for sharp boundary delineation, effectively breaking background camouflage.
+- **Feature Additive Refinement (FARM):** Employs a linear-complexity additive token mixer to globally verify and refine fine-grained anomalies, suppressing noise-induced errors.
+- **Industrial-Grade Performance:** specifically optimized for surface micro-defects (e.g., copper tubes), surpassing YOLOv11 by **2.2%** in mAP@50 and **3.9%** in Precision.
+- **Real-Time Efficiency:** Maintains the high inference speed characteristic of the YOLO family, making it suitable for online industrial inspection.
+- **New Benchmark (CTDD):** Introduces the **Copper Tube Defect Dataset**, a large-scale annotated benchmark for camouflaged anomaly detection research.
 
 ## 🛠️ Installation
 
 ### Requirements
 - Linux (Ubuntu 18.04/20.04 recommended)
-- Python >= 3.8
-- PyTorch >= 1.8.0
+- Python >= 3.10
+- PyTorch >= 2.1.0
 - CUDA >= 11.1
 
 ## 📊 Results
@@ -69,7 +70,7 @@ git clone [https://github.com/Yu-Xinda/CF-YOLO-A-Context-Aware-and-Feature-Refin
 cd CF-YOLO-A-Context-Aware-and-Feature-Refined-Architecture-for-Camouflaged-Anomalies
 
 # Create a virtual environment (Recommended)
-conda create -n cfyolo python=3.8 -y
+conda create -n cfyolo python=3.10 -y
 conda activate cfyolo
 
 # Install dependencies

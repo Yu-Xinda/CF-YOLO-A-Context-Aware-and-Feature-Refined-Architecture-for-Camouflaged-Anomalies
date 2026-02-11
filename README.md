@@ -38,10 +38,9 @@ Additionally, we introduce the **Copper Tube Defect Dataset (CTDD)**, a large-sc
 ## 🛠️ Installation
 
 ### Requirements
-- Linux (Ubuntu 18.04/20.04 recommended)
 - Python >= 3.10
 - PyTorch >= 2.1.0
-- CUDA >= 11.1
+- CUDA >= 11.8
 
 ## 📊 Results
 

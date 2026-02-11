@@ -66,7 +66,7 @@ We compare our CF-YOLO with state-of-the-art methods on camouflaged anomaly dete
 ### Step-by-step
 ```bash
 # Clone the repository
-git clone [https://github.com/Yu-Xinda/CF-YOLO-A-Context-Aware-and-Feature-Refined-Architecture-for-Camouflaged-Anomalies.git](https://github.com/Yu-Xinda/CF-YOLO-A-Context-Aware-and-Feature-Refined-Architecture-for-Camouflaged-Anomalies.git)
+git clone https://github.com/Yu-Xinda/CF-YOLO-A-Context-Aware-and-Feature-Refined-Architecture-for-Camouflaged-Anomalies.git
 cd CF-YOLO-A-Context-Aware-and-Feature-Refined-Architecture-for-Camouflaged-Anomalies
 
 # Create a virtual environment (Recommended)
@@ -75,3 +75,34 @@ conda activate cfyolo
 
 # Install dependencies
 pip install -r requirements.txt
+```
+
+📂 Data Preparation
+Please organize your dataset (e.g., CTDD) as follows:
+
+data/
+├── CTDD/
+│   ├── train/
+│   │   ├── images/
+│   │   └── labels/
+│   └── val/
+│       ├── images/
+│       └── labels/
+└── ...
+
+Training
+To train the CF-YOLO model, simply run the following command:
+
+```bash
+python train.py
+```
+Note: You can modify the training configurations (e.g., batch size, epochs, data path) directly inside train.py or configs/ if needed.
+
+Testing
+To evaluate the trained model on the test set, run:
+
+```bash
+python test.py
+```
+🙏 Acknowledgement
+We sincerely appreciate the authors of [Ultralytics](https://github.com/ultralytics/ultralytics) YOLO for their excellent open-source work, which serves as the strong baseline for our project.

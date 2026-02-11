@@ -1,11 +1,5 @@
 # CF-YOLO: A Context-Aware and Feature-Refined Architecture for Camouflaged Anomalies
 
-<div align="center">
-
-[![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/YOUR_ARXIV_ID)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Framework](https://img.shields.io/badge/PyTorch-%3E%3D1.8-orange)](https://pytorch.org/)
-![Stars](https://img.shields.io/github/stars/Yu-Xinda/CF-YOLO-A-Context-Aware-and-Feature-Refined-Architecture-for-Camouflaged-Anomalies)
 
 **Context-Aware** | **Feature-Refined** | **Camouflaged Anomaly Detection**
 

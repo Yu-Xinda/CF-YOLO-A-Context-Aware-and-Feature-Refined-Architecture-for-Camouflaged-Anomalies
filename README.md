@@ -1,4 +1,4 @@
-# CF-YOLO: A Context-Aware and Feature-Refined Architecture for Camouflaged Anomalies
+# Towards Robust Industrial Micro-Defect Detection: A Context-Aware and Feature-Refined Architecture for Camouflaged Anomalies
 
 
 **Context-Aware** | **Feature-Refined** | **Camouflaged Anomaly Detection**

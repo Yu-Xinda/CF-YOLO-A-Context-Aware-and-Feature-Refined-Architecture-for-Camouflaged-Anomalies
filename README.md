@@ -7,7 +7,7 @@
 
 ## 📖 Introduction
 
-This is the official implementation of the paper: **"CF-YOLO: A Context-Aware and Feature-Refined Architecture for Camouflaged Anomalies"**.
+This is the official implementation of the paper: **"Towards Robust Industrial Micro-Defect Detection: A Context-Aware and Feature-Refined Architecture for Camouflaged Anomalies"**.
 
 **CF-YOLO** is a novel real-time detection framework specifically designed for **industrial surface defect detection** (e.g., copper tubes), where anomalies are often minute and visually camouflaged against complex backgrounds. 
 

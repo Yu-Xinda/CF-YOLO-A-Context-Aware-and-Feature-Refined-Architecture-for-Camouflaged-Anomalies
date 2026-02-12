@@ -79,7 +79,12 @@ pip install -r requirements.txt
 
 ## 📂 Data Preparation
 Please organize your dataset (e.g., CTDD) as follows:
+The **Copper Tube Defect Dataset (CTDD)** constructed in this paper is available for research purposes. 
 
+Due to the large size of the dataset (or licensing restrictions), it is not hosted directly in this repository. Researchers interested in accessing the full dataset should request access by contacting the corresponding author via email:
+📧 **2025388032@stu.zjhu.edu.cn**
+
+Please include your institutional affiliation and a brief description of how you plan to use the data in your request.
 ```
 data/
 ├── CTDD/
